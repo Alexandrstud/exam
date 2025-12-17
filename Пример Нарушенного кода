@@ -1,0 +1,16 @@
+// Пример кода на Java, где нарушается Принцип открытости/закрытости (Open/Closed Principle)
+
+//public class SalaryCalculator {
+//
+//    public double calculateSalary(String employeeType, double baseSalary) {
+//        if (employeeType.equals("Manager")) {
+//            return baseSalary * 1.5; // Менеджеры получают 50% бонуса
+//        } else if (employeeType.equals("Developer")) {
+//            return baseSalary * 1.2; // Разработчики получают 20% бонуса
+//        } else if (employeeType.equals("Tester")) {
+//            return baseSalary * 1.1; // Тестировщики получают 10% бонуса
+//        } else {
+//            return baseSalary; // Остальные получают базовую зарплату
+//        }
+//    }
+//}
