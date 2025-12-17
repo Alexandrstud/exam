@@ -5,14 +5,14 @@ public class Main {
 
         SalaryCalculator managerCalc =
                 new SalaryCalculator(new ManagerSalaryStrategy());
-        System.out.println(managerCalc.calculateSalary(1000));
+        System.out.println("Manager получает зарплату: " + managerCalc.calculateSalary(1000));
 
         SalaryCalculator developerCalc =
                 new SalaryCalculator(new DeveloperSalaryStrategy());
-        System.out.println(developerCalc.calculateSalary(1000));
+        System.out.println("Developer получает зарплату: " + developerCalc.calculateSalary(1000));
 
         SalaryCalculator testerCalc =
                 new SalaryCalculator(new TesterSalaryStrategy());
-        System.out.println(testerCalc.calculateSalary(1000));
+        System.out.println("Tester получает зарплату: " + testerCalc.calculateSalary(1000));
     }
 }
